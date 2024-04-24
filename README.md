@@ -31,3 +31,26 @@ kubectl kustomize ./cmg_03;
 cd 01_configmapGenerator/;
 kubectl kustomize ./cmg_04;
 ```
+
+## 2. secretGenerator
+
+### 2.1 sg_01
+
+```sh
+cd 02_secretGenerator/;
+kubectl kustomize ./sg_01;
+```
+
+### 2.2 sg_02
+
+```sh
+cd 02_secretGenerator/;
+kubectl kustomize ./sg_02;
+```
+
+### 2.3 sg_03
+
+```sh
+cd 02_secretGenerator/;
+kubectl kustomize ./sg_03;
+```
