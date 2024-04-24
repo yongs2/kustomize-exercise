@@ -109,3 +109,19 @@ kubectl kustomize ./ccr_04;
 cd 05_Composing_Customizing_Resources;
 kubectl kustomize ./ccr_05;
 ```
+
+## 6. Bases and Overlays
+
+### 6.1 dev
+
+```sh
+cd 06_Bases_Overlays;
+kubectl kustomize ./dev;
+```
+
+### 6.2 prod
+
+```sh
+cd 06_Bases_Overlays;
+kubectl kustomize ./prod;
+```
