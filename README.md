@@ -54,3 +54,12 @@ kubectl kustomize ./sg_02;
 cd 02_secretGenerator/;
 kubectl kustomize ./sg_03;
 ```
+
+## 3. generatorOptions
+
+### 3.1 go_01
+
+```sh
+cd 03_generatorOptions/;
+kubectl kustomize ./go_01;
+```
