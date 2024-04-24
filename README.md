@@ -63,3 +63,12 @@ kubectl kustomize ./sg_03;
 cd 03_generatorOptions/;
 kubectl kustomize ./go_01;
 ```
+
+## 4. Setting cross-cutting fields
+
+### 4.1 ccf_01
+
+```sh
+cd 04_Setting_cross_cutting_fields;
+kubectl kustomize ./ccf_01;
+```
