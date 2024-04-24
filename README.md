@@ -72,3 +72,40 @@ kubectl kustomize ./go_01;
 cd 04_Setting_cross_cutting_fields;
 kubectl kustomize ./ccf_01;
 ```
+
+## 5. Composing and Customizing Resources
+
+### 5.1 Composing (ccr_01)
+
+```sh
+cd 05_Composing_Customizing_Resources;
+kubectl kustomize ./ccr_01;
+```
+
+### 5.2 Customizing (ccr_02)
+
+```sh
+cd 05_Composing_Customizing_Resources;
+kubectl kustomize ./ccr_02;
+```
+
+### 5.3 Customizing (ccr_03)
+
+```sh
+cd 05_Composing_Customizing_Resources;
+kubectl kustomize ./ccr_03;
+```
+
+### 5.4 Customizing (ccr_04)
+
+```sh
+cd 05_Composing_Customizing_Resources;
+kubectl kustomize ./ccr_04;
+```
+
+### 5.5 Customizing (ccr_05)
+
+```sh
+cd 05_Composing_Customizing_Resources;
+kubectl kustomize ./ccr_05;
+```
